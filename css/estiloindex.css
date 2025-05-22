@@ -1,0 +1,125 @@
+
+
+header{
+  font-family: "Ancizar Serif", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(5, 173, 70);
+}
+nav{
+    height: 50px;
+     font-family: "Ancizar Serif", serif;
+        background-color: orange;
+}
+nav ul {
+    display:flex ;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+    list-style: none;
+
+}
+nav ul li:hover {
+
+background-color: rgb(23, 153, 62);
+transition: 1s;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto{
+    
+    grid-area:texto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.texto p{
+    display: block;
+}
+
+.imgtexto{
+    grid-area:imgtexto ;
+        background-image: url(../img/erp.png) ;
+            background-size: 100% 100%;
+    background-position: center;
+
+}
+
+.info{
+    grid-area:info ;
+            background-image: url(../img/info.jpg) ;
+            background-size: 100% 100%;
+    background-position: center;
+}
+
+.odoo{
+background-image: url(../img/odoo.png);
+    background-position: center;
+    background-size: 100% 100%;
+    grid-area: odoo;
+}
+
+main{
+    min-height: 700px;
+display: flex;
+flex-direction: column;
+align-items: center;
+    margin : 5px;
+  
+}
+
+.gridIndex{
+      display: grid;
+      width: 50%;
+    grid-template-columns: 49% 49% ;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "texto imgtexto"
+                        "odoo info"
+} 
+
+.info:hover , .odoo:hover{
+    background-size: 102% 102%;
+    transition: 1s;
+
+}
+
+
+footer{
+
+    background-color: rgb(5, 173, 70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+footer ul{
+    display: flex;
+    width: 30%;
+    height: 50px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+footer ul li a  {
+    color: black;
+
+}
+
+
+

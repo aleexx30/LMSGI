@@ -1,0 +1,179 @@
+nav{
+    height: 50px;
+        background-color: orange;
+         font-family: "Ancizar Serif", serif;
+}
+nav ul {
+    display:flex ;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+    list-style: none;
+
+}
+nav ul li:hover {
+
+background-color: rgb(23, 153, 62);
+transition: 1s;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tipo1{
+    grid-area:tipo1 ;
+}
+.tipo2{
+    grid-area:tipo2 ;
+}
+.tipo3{
+    grid-area:tipo3 ;
+}
+.tipo4{
+    grid-area:tipo4 ;
+}
+.tipo5{
+    grid-area:tipo5 ;
+}
+.tipo6{
+    grid-area:tipo6 ;
+}
+
+
+
+.gridTipos{
+
+      display: grid;
+
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: "tipo1 tipo2"
+                        "tipo3 tipo4"
+                        "tipo5 tipo6";
+} 
+
+
+.gridTipos div{
+    background-color: rgb(5, 173, 70);
+    margin: 10px;
+        padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gridTipos div:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    transition: 1s;
+    margin: 10px;
+        padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #ffa600;
+    justify-content: center;
+}
+
+.gridTipos div:hover h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    margin: 10px;
+        padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    border: 10px solid #ffa600
+}
+
+
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+   margin: 0 auto;
+    align-items: center;
+    width: 80%;
+
+}
+.intro hr{
+    width: 230px;
+    background-color: #ffa600;
+    height: 10px;
+    border: none;
+}
+.intro1{
+    margin: 20px;
+    border:10px solid #ffa600;
+    padding: 25px;
+    background-color: rgb(5, 173, 70);
+}
+
+header{
+  font-family: "Ancizar Serif", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(5, 173, 70);;
+
+}
+.vid iframe{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+
+.info:hover{
+    color: white;
+    background-color: rgb(5, 173, 70);
+    text-decoration: none;
+    border: 10px solid  #ffa600;
+}
+
+
+.info{
+    text-decoration: none;
+    color: black;
+        border: 10px solid  #ffa600;
+        margin: 15px;
+        padding: 5px;
+
+}
+
+footer{
+
+    background-color: rgb(5, 173, 70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+footer ul{
+    display: flex;
+    width: 30%;
+    height: 50px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+footer ul li a  {
+    color: black;
+
+}

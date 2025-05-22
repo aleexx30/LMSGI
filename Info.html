@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo sobre los sistemas gestores de informacion</title>
+    <link rel="stylesheet" href="./css/estiloinfo.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8ec0c28901.js" crossorigin="anonymous"></script>
+<body>
+    
+
+
+
+       <header>
+        <h1>Mas informacion.</h1>
+        <h4>Vamos a ver todos los tipos disponibles.</h4>
+    </header>
+        
+    <nav>
+                <div class="boton-menu">
+            <p>MENU</p>
+            <button onclick="mostrarMenu()"></button>
+        
+        </div>
+        
+        <ul class="menu">
+        <li><a href="https://www.paginasamarillas.es" target="_blank">Sobre nosotros</a></li>
+        <li><a href="https://www.paginasamarillas.es">Contactanos</a></li>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./Info.html">Mas informacion</a></li>
+        <li><a href="./Ejemplo.html">odoo</a></li>
+    </ul>
+    </nav>
+
+
+
+
+<main>
+<section class="tipos"><h1>Tipos</h1></section>
+
+<div class="gridTipos">
+    <div class="tipo1"><h1>ERP </h1><p>(Enterprise Resource Planning): Integra la información de diferentes departamentos en un único sistema, como finanzas, producción, ventas y recursos humanos. Ejemplos: SAP, Oracle, Microsoft Dynamics. </p></div>
+    <div class="tipo2"><h1>CRM </h1><p> (Customer Relationship Management): Ayuda a gestionar las relaciones con los clientes, incluyendo prospección, ventas y atención al cliente. Ejemplos: Salesforce, HubSpot, Zoho. </p></div>
+    <div class="tipo3"><h1>SGA  </h1><p>(Sistemas de Gestión de Almacenes): Optimizan la gestión de inventario, almacenes y logística. </p></div>
+    <div class="tipo4"><h1>DMS  </h1><p>(Sistemas de Gestión Documental): Permiten gestionar documentos de forma organizada y accesible. </p></div>
+    <div class="tipo5"><h1>BPM </h1><p>(Business Process Management): Ayudan a gestionar y optimizar los procesos empresariales. </p></div>
+    <div class="tipo6"><h1>BI </h1><p>(Business Intelligence): Permiten analizar datos y obtener información estratégica para la toma de decisiones. </p></div>
+</div>
+</main>
+<footer>
+    <p>tusge.com</p>
+
+
+    <ul>
+   <li><a href="https://www.paginasamarillas.es" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+   <li><a href="https://www.paginasamarillas.es" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+   <li><a href="https://www.paginasamarillas.es" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+   <li><a href="https://www.paginasamarillas.es" target="_blank"><i class="fa-solid fa-x"></i></a></li>
+    </ul>
+</footer>
+
+
+    <script>
+        function mostrarMenu(){
+           let menu = document.querySelector(".menu");
+           menu.classList.toggle("show");
+        }
+    </script>
+
+
+
+
+
+
+

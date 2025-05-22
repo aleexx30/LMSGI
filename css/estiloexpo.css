@@ -1,0 +1,172 @@
+
+header{
+  font-family: "Ancizar Serif", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(5, 173, 70);;
+
+}
+
+nav{
+    height: 50px;
+        background-color: orange;
+         font-family: "Ancizar Serif", serif;
+}
+nav ul {
+    display:flex ;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.boton-menu button{
+    width: 30px;
+    height: 30px;
+    background-image: var(--menu-button-icon);
+    border-radius: 5px;
+    background-color: var(--menu-button-background);
+}
+.boton-menu{
+    text-align: center;
+    display: none;
+}
+.boton-menu p{
+    display: inline-block;
+    color: var(--logo-background);
+}
+nav ul li:hover {
+
+background-color: rgb(23, 153, 62);
+transition: 1s;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipo1{
+    grid-area:tipo1 ;
+}
+.tipo2{
+    grid-area:tipo2 ;
+}
+.tipo3{
+    grid-area:tipo3 ;
+}
+.tipo4{
+    grid-area:tipo4 ;
+}
+.tipo5{
+    grid-area:tipo5 ;
+}
+.tipo6{
+    grid-area:tipo6 ;
+}
+
+
+
+.gridTipos{
+
+      display: grid;
+
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: "tipo1 tipo2"
+                        "tipo3 tipo4"
+                        "tipo5 tipo6";
+} 
+
+
+.gridTipos div{
+    background-color: rgb(5, 173, 70);
+    margin: 10px;
+        padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gridTipos div:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    transition: 1s;
+    margin: 10px;
+        padding: 10px;
+    display: flex;
+    flex-direction: column;
+ font-family: "Ancizar Serif", serif;
+    align-items: center;
+    border: 10px solid #ffa600;
+    justify-content: center;
+}
+
+.gridTipos div:hover h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    margin: 10px;
+        padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    border: 10px solid #ffa600
+}
+
+
+footer{
+
+    background-color: rgb(5, 173, 70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 50px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+footer ul li a  {
+    color: black;
+
+}
+
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+     font-family: "Ancizar Serif", serif;
+}
+
+
+details{
+    border: 3px solid rgb(5, 173, 70);
+    background-color: rgb(5, 173, 70);
+    margin: 15px;
+
+}
+ details p{
+    border: 3px solid #ffa600;
+    margin: 15px;
+    padding: 10px;
+}
